@@ -6,7 +6,7 @@ from weatherapi.rest import ApiException
 from pprint import pprint
 
 configuration = weatherapi.Configuration()
-configuration.api_key['key'] = '33c4c4c4a5064a6b9cd74921252610'
+configuration.api_key['key'] = 'YOUR_API_KEY_HERE'
 
 choice = input('Hello, press 1 to get started, and 2 to exit.')
 
